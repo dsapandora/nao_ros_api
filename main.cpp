@@ -14,6 +14,8 @@ int main(int argc, char **argv)
   // Example showing how to open the right hand.
   std::string handName = "RHand", LhandName = "LHand";
 
+  motion.setWalkArmsEnabled(true, true);
+
 
   motion.openHand(handName); 
 
@@ -24,10 +26,10 @@ int main(int argc, char **argv)
   motion.closeHand(LhandName);   
   motion.closeHand(handName);
 
-  motion.moveTo(0.2f, 0.2f, 1.5709f);
+  motion.walkTo(0.2f, 0.0f, 1.57079f); //caminar hacia adelante girando 90° grados
 
-  sleep(5);
-  motion.moveTo(-0.2f, 0.2f, -1.5709f);
+  //sleep(2);
+  //motion.stopWalk();
 
 
   return 0;
