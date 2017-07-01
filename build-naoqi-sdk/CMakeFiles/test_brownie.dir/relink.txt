@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/test_brownie.dir/test.cpp.o  -o CMakeFiles/CMakeRelink.dir/test_brownie -rdynamic -Wl,-rpath,"\$ORIGIN/../lib" 

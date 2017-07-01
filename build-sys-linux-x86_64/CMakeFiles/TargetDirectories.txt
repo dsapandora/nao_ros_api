@@ -1,0 +1,2 @@
+/home/viki/pizza/brownie/build-sys-linux-x86_64/CMakeFiles/brownie.dir
+/home/viki/pizza/brownie/build-sys-linux-x86_64/CMakeFiles/test_brownie.dir

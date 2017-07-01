@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/brownie.dir/main.cpp.o  -o sdk/bin/brownie -rdynamic /opt/ros/indigo/lib/libqi.so -lboost_filesystem -lboost_program_options -lboost_regex -lboost_locale -lboost_thread -lpthread -lboost_chrono -lboost_system -lpthread -ldl -lrt -Wl,-rpath,/opt/ros/indigo/lib: 

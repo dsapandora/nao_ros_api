@@ -1,0 +1,3 @@
+/share/qi/path.conf
+/bin/brownie
+/bin/test_brownie

@@ -1,0 +1,12 @@
+<project version="3">
+  <!-- Add your name and e-mail here
+    <maintainer email="...">Your Name</maintainer>
+  -->
+
+  <qibuild name="brownie">
+    
+    <depends buildtime="true" runtime="true" names="libnaoqi" />
+    
+ </qibuild>
+
+</project>

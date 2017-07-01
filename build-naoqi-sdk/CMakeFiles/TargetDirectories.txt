@@ -1,0 +1,2 @@
+/home/viki/pizza/brownie/build-naoqi-sdk/CMakeFiles/brownie.dir
+/home/viki/pizza/brownie/build-naoqi-sdk/CMakeFiles/test_brownie.dir

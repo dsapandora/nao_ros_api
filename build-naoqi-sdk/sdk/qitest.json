@@ -1,0 +1,14 @@
+[
+  {
+    "environment": null, 
+    "name": "test_brownie", 
+    "cmd": [
+      "/home/viki/pizza/brownie/build-naoqi-sdk/sdk/bin/test_brownie"
+    ], 
+    "nightly": false, 
+    "gtest": false, 
+    "working_directory": null, 
+    "timeout": 20, 
+    "perf": false
+  }
+]

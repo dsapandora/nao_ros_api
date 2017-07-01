@@ -1,0 +1,14 @@
+<package uuid="comida" version="0.1.0">
+  <services>
+
+    
+
+    <!-- if written in C++ -->
+    <service name="myservice" autorun="true" execStart="bin/brownie" />
+    <executableFiles>
+      <file path="bin/brownie" />
+    </executableFiles>
+
+  </services>
+
+</package>
