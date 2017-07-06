@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request, jsonify
 import aiml
 import os
+from naoqi import ALProxy
 
 app = Flask(__name__)
+tts = ALProxy("ALTextToSpeech", "192.168.0.104", 9559)
 
 @app.route("/")
 def hello():
@@ -27,9 +29,10 @@ def ask():
 	    elif message == "save":
 	        kernel.saveBrain("bot_brain.brn")
 	    else:
-	        bot_response = kernel.respond(message)
-	        # print bot_response
-	        return jsonify({'status':'OK','answer':bot_response})
+                bot_response = kernel.respond(message)
+                tts.say(bot_response)
+            # print bot_response
+                return jsonify({'status':'OK','answer':bot_response})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",debug=True)
