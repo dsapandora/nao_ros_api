@@ -104,6 +104,9 @@ sleep(5);
 //  timeList   = 2.0f; // seconds
   motion.positionInterpolation(effector, space0, path, axisMask0, time, isAbsolute);
 
+
+ motion.walkTo(0.2f, 0.0f, 1.57079f);
+
   motion.rest();
 
 
