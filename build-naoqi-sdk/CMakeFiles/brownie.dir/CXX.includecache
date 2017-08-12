@@ -22,6 +22,22 @@ alvalue/alvalue.h
 alproxies/api.h
 -
 
+/home/viki/naoqi/naoqi-sdk-2.1.4.13-linux64/include/alproxies/alrobotpostureproxy.h
+string
+-
+vector
+-
+boost/shared_ptr.hpp
+-
+qi/types.hpp
+-
+qitype/anyobject.hpp
+-
+alvalue/alvalue.h
+-
+alproxies/api.h
+-
+
 /home/viki/naoqi/naoqi-sdk-2.1.4.13-linux64/include/alproxies/api.h
 qi/macro.hpp
 -
@@ -11838,6 +11854,8 @@ qitype/anyfunction.hpp
 iostream
 -
 alproxies/almotionproxy.h
+-
+alproxies/alrobotpostureproxy.h
 -
 unistd.h
 -
